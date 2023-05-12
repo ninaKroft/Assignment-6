@@ -1,5 +1,5 @@
 # pi = 4 * (1/1 - 1/3 + 1/5 - 1/7 + 1/9...)
-
+import math
 
 def calculations(number):
     x = 1
@@ -12,13 +12,15 @@ def calculations(number):
     return pi * 4
 
 
-iterations = input()
+iterations = input("Please enter the number of iterations: ")
+
 try:
-    int(iterations)
+    float(iterations)
 except ValueError:
     print("You entered text. Please enter a positive integer.")
 else:
-    if int(iterations) < 0:
+    if float(iterations) < 0:
         print("You entered a negative number. Please enter a positive integer.")
     else:
-        print(calculations(iterations))
+        iterations = math.trunc(float(iterations))
+        print("The value of pi after", iterations, "iterations is:", calculations(iterations))
