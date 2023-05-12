@@ -58,6 +58,9 @@
   </div>
   <main class="mdl-layout__content">
     <div class="page-content"><!-- Your content goes here -->
+    <center><h1 class="title">Here are your results</h1></center>
+    <br>
+    <br>
 <?php
     if (isset ($_POST['iterations'])){
         $iterations = $_POST['iterations'];
@@ -93,11 +96,20 @@
             exit();
         }
 
-    echo "The value of pi after " . $iterations . " is " . calculations($iterations);
+    echo "The value of pi after " . $iterations . " iterations is " . calculations($iterations);
 
     }
 
 ?>
+<footer class="mdl-mini-footer">
+  <div class="mdl-mini-footer__left-section">
+    <div class="mdl-logo">Title</div>
+    <ul class="mdl-mini-footer__link-list">
+      <li><a href="#">Help</a></li>
+      <li><a href="#">Privacy & Terms</a></li>
+    </ul>
+  </div>
+</footer>
     </div>
   </main>
 </div>

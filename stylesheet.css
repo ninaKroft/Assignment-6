@@ -1,19 +1,19 @@
 .title{
-    text-decoration:underline;
-    font-family:Verdana;
-    font-weight:bold;
-    font-size:30px;
-    color:rgb(24, 63, 49);
+    text-decoration: underline;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(24, 63, 49);
 }
 
 .subtitle{
-    font-family:Verdana;
-    font-size:16px;
-    color:rgb(24, 63, 49);
+    font-family: Verdana;
+    font-size: 16px;
+    color: rgb(24, 63, 49);
 }
 
 .text{
-    font-family:Verdana;
-    color:rgb(24, 63, 49);
-    font-size:13px;
+    font-family: Verdana;
+    color: rgb(24, 63, 49);
+    font-size: 13px;
 }
