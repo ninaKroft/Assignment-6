@@ -12,6 +12,8 @@
 <?php
     if (isset ($_POST['iterations'])){
         $iterations = $_POST['iterations'];
+
+        function calculations($iterations) {
         $top = 1;
         $bottom = 1;
         $pi = 0;
@@ -19,7 +21,9 @@
             $pi = $pi + ($top / $bottom);
             $bottom = $bottom + 2;
             $top = $top * -1;
-        echo $pi;
+        return $pi * 4;
+        }
+
 
     }
 
