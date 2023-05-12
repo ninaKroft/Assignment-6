@@ -17,10 +17,11 @@
         $top = 1;
         $bottom = 1;
         $pi = 0;
-        for ($x = 0; $x < $iterations; $x++);
+        for ($x = 0; $x < $iterations; $x++){
             $pi = $pi + ($top / $bottom);
             $bottom = $bottom + 2;
             $top = $top * -1;
+        }
         return $pi * 4;
         }
     echo calculations($iterations);
