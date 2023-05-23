@@ -5,7 +5,7 @@ def calculations(number):
     x = 1
     z = 1
     pi = 0
-    for y in range(1, int(number) + 1):
+    for y in range(0, int(number)):
         pi = pi + (z / x)
         x = x + 2
         z = z * -1
