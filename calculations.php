@@ -5,7 +5,7 @@
     <title>Results page</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-orange.min.css" />
-    <link rel="mystylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="stylesheet.css" />
 </head>
 <body>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
@@ -40,27 +40,30 @@
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation -->
       <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="./index.html">Return to main page</a>
+        <a class="mdl-navigation__link" href=""></a>
+        <a class="mdl-navigation__link" href=""></a>
+        <a class="mdl-navigation__link" href=""></a>
       </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">Title</span>
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="./index.html">Return to main page</a>
+      <a class="mdl-navigation__link" href=""></a>
+      <a class="mdl-navigation__link" href=""></a>
+      <a class="mdl-navigation__link" href=""></a>
     </nav>
   </div>
   <main class="mdl-layout__content">
     <div class="page-content"><!-- Your content goes here -->
-    <center><h1 class="title">Here are your results</h1></center>
+    <center><h1 class="title" style="text-shadow:0px 0px 2px rgb(173, 216, 230);">Here are your results</h1></center>
     <br>
     <br>
+    <br>
+    <br>
+    <center><p>------------------------------------------------------------------------------------------------</p></center>
 <?php
     if (isset ($_POST['iterations'])){
         $iterations = $_POST['iterations'];
@@ -96,20 +99,27 @@
             exit();
         }
 
-    echo "The value of pi after " . $iterations . " iterations is " . calculations($iterations);
+    echo "<center>" . "<p class='text'>" . "The value of pi after " . $iterations . " iterations is " . calculations($iterations) . "</p>" . "</center>";
 
     }
 
 ?>
 <br>
 <br>
+<a href="index.html">Click here to return to the main page</a>
+<center><p>------------------------------------------------------------------------------------------------</p></center>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <footer class="mdl-mini-footer">
   <div class="mdl-mini-footer__left-section">
-    <div class="mdl-logo">Title</div>
+    <div class="mdl-logo">Pi Calculator</div>
     <ul class="mdl-mini-footer__link-list">
-      <li><a href="#">Help</a></li>
-      <li><a href="#">Privacy & Terms</a></li>
+      <li><a href="#">By Nina</a></li>
+      <li><a href="#">ICS2O</a></li>
     </ul>
   </div>
 </footer>
