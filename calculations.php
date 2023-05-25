@@ -100,7 +100,7 @@
             exit();
         }
 
-    echo "<center>" . "<p class='subtitle'>" . "The value of pi after " . $iterations . " iterations is " . calculations($iterations) . "</p>" . "</center>";
+    echo "<center>" . "<p class='subtitle'>" . "The value of pi after " . round($iterations) . " iterations is " . calculations($iterations) . "</p>" . "</center>";
 
     }
 
@@ -110,7 +110,7 @@
 <center><a href="index.html">Click here to return to the main page</a></center>
 <center><p>-------------------------------------------------------------------------------------------------------</p></center>
 <br>
-<center><img src="./images/lotsofpinumbers.png" alt="numbers of pi" width="300px" height="200px"></center>
+<center><img src="./images/lotsofpinumbers.png" alt="numbers of pi" width="500px" height="350px"></center>
 <br>
 <br>
 <br>
