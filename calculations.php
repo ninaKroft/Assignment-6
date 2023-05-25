@@ -91,12 +91,12 @@
         }
 
         if (checkNumber($iterations) == False){
-            echo "You entered text. Please return to the main page and enter a positive integer.";
+            echo "<center>" . "<p class='subtitle'>" . "You entered text. Please return to the main page and enter a positive integer." . "</p>" . "</center>";
             exit();
         }
 
         if (checkNegative($iterations) == True){
-            echo "You entered a negative number. Please return to the main page and enter a positive integer.";
+            echo "<center>" . "<p class='subtitle'>" . "You entered a negative number. Please return to the main page and enter a positive integer." . "</p>" . "</center>";
             exit();
         }
 
