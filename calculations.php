@@ -21,7 +21,7 @@
     <!-- Top row, always visible -->
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title">Title</span>
+      <span class="mdl-layout-title">Pi Calculator - Results</span>
       <div class="mdl-layout-spacer"></div>
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
                   mdl-textfield--floating-label mdl-textfield--align-right">
@@ -110,7 +110,7 @@
 <center><a href="index.html">Click here to return to the main page</a></center>
 <center><p>-------------------------------------------------------------------------------------------------------</p></center>
 <br>
-<img src="./images/lotsofpinumbers.png" alt="numbers of pi" width="180px" height="100px">
+<center><img src="./images/lotsofpinumbers.png" alt="numbers of pi" width="300px" height="200px"></center>
 <br>
 <br>
 <br>
