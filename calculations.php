@@ -48,7 +48,7 @@
     </div>
   </header>
   <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Title</span>
+    <span class="mdl-layout-title">Results</span>
     <nav class="mdl-navigation">
       <a class="mdl-navigation__link" href="./index.html">Return to main page</a>
       <a class="mdl-navigation__link" href=""></a>
@@ -58,12 +58,13 @@
   </div>
   <main class="mdl-layout__content">
     <div class="page-content"><!-- Your content goes here -->
+    <br>
+    <br>
     <center><h1 class="title" style="text-shadow:0px 0px 2px rgb(173, 216, 230);">Here are your results</h1></center>
     <br>
     <br>
     <br>
-    <br>
-    <center><p>------------------------------------------------------------------------------------------------</p></center>
+    <center><p>-------------------------------------------------------------------------------------------------------</p></center>
 <?php
     if (isset ($_POST['iterations'])){
         $iterations = $_POST['iterations'];
@@ -99,17 +100,17 @@
             exit();
         }
 
-    echo "<center>" . "<p class='text'>" . "The value of pi after " . $iterations . " iterations is " . calculations($iterations) . "</p>" . "</center>";
+    echo "<center>" . "<p class='subtitle'>" . "The value of pi after " . $iterations . " iterations is " . calculations($iterations) . "</p>" . "</center>";
 
     }
 
 ?>
 <br>
 <br>
-<a href="index.html">Click here to return to the main page</a>
-<center><p>------------------------------------------------------------------------------------------------</p></center>
+<center><a href="index.html">Click here to return to the main page</a></center>
+<center><p>-------------------------------------------------------------------------------------------------------</p></center>
 <br>
-<img src="./images/lotsofpinumbers.png" alt="numbers of pi">
+<img src="./images/lotsofpinumbers.png" alt="numbers of pi" width="180px" height="100px">
 <br>
 <br>
 <br>
