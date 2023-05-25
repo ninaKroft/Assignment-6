@@ -109,6 +109,7 @@
 <a href="index.html">Click here to return to the main page</a>
 <center><p>------------------------------------------------------------------------------------------------</p></center>
 <br>
+<img src="./images/lotsofpinumbers.png" alt="numbers of pi">
 <br>
 <br>
 <br>
